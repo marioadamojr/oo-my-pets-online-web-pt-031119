@@ -55,6 +55,3 @@ class Owner
   end
 
 end
-
-
-
