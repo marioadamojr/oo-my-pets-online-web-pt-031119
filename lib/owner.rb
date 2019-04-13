@@ -73,7 +73,7 @@ class Owner
 
   def sell_pets
     @pets.update do |pet, mood|
-binding.pry
+      binding.pry
       mood = "nervous"
 
     end
