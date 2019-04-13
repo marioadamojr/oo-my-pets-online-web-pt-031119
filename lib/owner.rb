@@ -9,8 +9,12 @@ class Owner
     @@all << self
   end
 
-
   def self.all
     @@all
   end
+
+  def self.count
+    @@all.count
+  end
+
 end
