@@ -15,6 +15,10 @@ class Owner
     @@all
   end
 
+  def save
+    @@all << self
+  end
+
   def self.count
     @@all.count
   end
@@ -30,4 +34,8 @@ class Owner
   def pets
     @pets
   end
+
+  def buy_fish(fish_name)
+    fish = Fish.new(fishname)
+    @pets[:fishes] << fish
 end
