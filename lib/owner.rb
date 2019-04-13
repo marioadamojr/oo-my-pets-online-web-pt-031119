@@ -40,4 +40,8 @@ class Owner
     @pets[:fishes] << fish
     # self.save
   end
+
+  def buy_cat(cat_name)
+    cat = Cat.new(cat_name)
+    @pets[:cats] << cat
 end
