@@ -80,4 +80,8 @@ class Owner
     @pets = {fishes:[], dogs:[],cats:[]}
   end
 
+  def list_pets
+    "I have #{pets[:fish]}.count fish"
+
+
 end
