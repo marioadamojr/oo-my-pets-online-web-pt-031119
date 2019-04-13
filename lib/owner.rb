@@ -1,3 +1,4 @@
+'require pry'
 class Owner
   # code goes here
   attr_accessor :name, :pets
@@ -72,6 +73,7 @@ class Owner
 
   def sell_pets
     @pets.each_value do |pet|
+      binding.pry
       pet.mood = "nervous"
     end
   end
