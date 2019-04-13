@@ -75,7 +75,7 @@ class Owner
     @pets.update do |pet, mood|
       mood = "nervous"
     end
-    @pets = {fishes:[], dogs:[],cats:[]}
+    # @pets = {fishes:[], dogs:[],cats:[]}
   end
 
 end
