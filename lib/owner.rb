@@ -74,7 +74,7 @@ class Owner
   def sell_pets
     @pets.update do |pet, mood|
       mood = "nervous"
-binding.pry
+      binding.pry
     end
     # @pets = {fishes:[], dogs:[],cats:[]}
   end
