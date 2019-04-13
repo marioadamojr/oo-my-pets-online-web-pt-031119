@@ -39,4 +39,5 @@ class Owner
     fish = Fish.new(fishname)
     @pets[:fishes] << fish
     self.save
+  end
 end
